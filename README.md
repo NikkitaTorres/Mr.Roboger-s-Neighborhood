@@ -34,7 +34,7 @@ This is a project for recognizing and changing numbers in a counting sequence, s
 
 ## Setup Instructions:
 
-1. Clone [this](https://github.com/NikkitaTorres/Language-Suggestor.git) repository to your desktop
+1. Clone [this](https://github.com/NikkitaTorres/Mr.Roboger-s-Neighborhood.git) repository to your desktop
 2. Navigate to the top level of the directory.
 3. Open index.html in your browser.
 4. Enter a number into the space provided.
@@ -47,6 +47,10 @@ Known bugs includes:
 * Submit button now working with enter key. Must click on the submit button to get a result.
 
 If you experience any other issues or notice anything that could be changed for the better, please reach out to me [here](nikkitatorres@yahoo.com). For bug reports, please begin with a brief description of the issue and when the issues occurs. For example, "I cannot view the images on the webpage when launching in Mozilla Firefox" or "Resizing the webpage breaks the web links".
+
+## Image Credits
+
+[Banner Image](https://www.istockphoto.com/photo/ai-machine-learning-hands-of-robot-and-human-touching-on-big-data-network-connection-gm1206796363-348181260?phrase=robot&searchscope=image%2Cfilm) by ipopba on istockphoto.com
 
 ## License
 
