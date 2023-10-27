@@ -38,13 +38,13 @@ This is a project for recognizing and changing numbers in a counting sequence, s
 2. Navigate to the top level of the directory.
 3. Open index.html in your browser.
 4. Enter a number into the space provided.
-5. Click "Submit" and get you'll see a counter provided with some of the words changed, given you didn't pick "0" as your number.
+5. Click "Click Here" and get you'll see a counter provided with some of the words changed, given you didn't pick "0" as your number.
 
 ## Known Bugs:
 
 Known bugs includes: 
 
-* N/A
+* Submit button now working with enter key. Must click on the submit button to get a result.
 
 If you experience any other issues or notice anything that could be changed for the better, please reach out to me [here](nikkitatorres@yahoo.com). For bug reports, please begin with a brief description of the issue and when the issues occurs. For example, "I cannot view the images on the webpage when launching in Mozilla Firefox" or "Resizing the webpage breaks the web links".
 
