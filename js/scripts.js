@@ -1,12 +1,12 @@
 function beepBoop(number) {
   const numberString = number.toString();
   if (numberString.includes("3")) {
-      return "Won't you be my neighbor?";
-  } else if (numberString.includes("2")) {
-      return "Boop!";
-  } else if (numberString.includes("1")) {
-      return "Beep!";
-  }
+    return "Won't you be my neighbor?";
+    } else if (numberString.includes("2")) {
+    return "Boop!";
+    } else if (numberString.includes("1")) {
+    return "Beep!";
+    }
   return number;
 }
 
@@ -29,6 +29,11 @@ function userResult() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  const submit = document.getElementById("submit");
+  submit.addEventListener("click", userResult);
+});
+
 function displayNumbers(numbersArray) {
     document.getElementById("result").textContent = "Counting: " + numbersArray.join(", ");
  }
@@ -36,8 +41,3 @@ function displayNumbers(numbersArray) {
 function displayErrorMessage(message) {
     document.getElementById("result").textContent = message;
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-  const submit = document.getElementById("submit");
-  submit.addEventListener("click", userResult);
-});
