@@ -13,22 +13,22 @@ function beepBoop(number) {
 function changedNumbers(num) {
   const numbersArray = [];
   for (let i = 0; i <= num; i++) {
-      numbersArray.push(beepBoop(i));
+    numbersArray.push(beepBoop(i));
   }
   return numbersArray;
 }
 
 function userResult() {
-    const userInput = document.getElementById("userInput").value;
+  const userInput = document.getElementById("userInput").value;
+  const num = parseInt(userInput);
+  const validInput = (/^\d+$/);
+  if (validInput.test(userInput)) {
     const num = parseInt(userInput);
-    const validInput = (/^\d+$/);
-    if (validInput.test(userInput)) {
-        const num = parseInt(userInput);
-        const numbersArray = changedNumbers(num);
-        displayNumbers(numbersArray);
-    } else {
-          displayErrorMessage("Please enter a valid number.");
-    }
+    const numbersArray = changedNumbers(num);
+    displayNumbers(numbersArray);
+  } else {
+      displayErrorMessage("Please enter a valid number.");
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function displayNumbers(numbersArray) {
-    document.getElementById("result").textContent = "Counting: " + numbersArray.join(", ");
+  document.getElementById("result").textContent = "Counting: " + numbersArray.join(", ");
  }
 
 function displayErrorMessage(message) {
-    document.getElementById("result").textContent = message;
+  document.getElementById("result").textContent = message;
 }
