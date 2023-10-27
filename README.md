@@ -44,7 +44,7 @@ This is a project for recognizing and changing numbers in a counting sequence, s
 
 Known bugs includes: 
 
-* Getting no result when entering a negative number.
+* Numbers mixed with letters are still going through with a result that is not "Please enter a valid number."
 
 If you experience any other issues or notice anything that could be changed for the better, please reach out to me [here](nikkitatorres@yahoo.com). For bug reports, please begin with a brief description of the issue and when the issues occurs. For example, "I cannot view the images on the webpage when launching in Mozilla Firefox" or "Resizing the webpage breaks the web links".
 

@@ -21,7 +21,7 @@ function changedNumbers(num) {
 function userResult() {
     const userInput = document.getElementById("userInput").value;
     const num = parseInt(userInput);
-    if (!isNaN(num)) {
+    if (!isNaN(num) && num >= 0) {
         const numbersArray = changedNumbers(num);
         displayNumbers(numbersArray);
     } else {
